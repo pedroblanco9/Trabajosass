@@ -1,0 +1,33 @@
+header {
+    background-color: rgba(255, 255, 255, 0.938);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+&-header button {
+    display: none;
+}
+}
+header button {
+    display:block;
+    width: 50px;
+    height: 50px;
+    font: 30px;
+    color: black;
+    background-color: burlywood;
+    border-radius: 25%;
+    margin: 50px;
+    border: 1px solid black;
+ }
+ nav {
+    text-align: center;
+
+
+
+&-nav li {
+    display: inline-block;
+    margin: 20px;
+
+}
+}
